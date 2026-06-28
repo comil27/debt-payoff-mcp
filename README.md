@@ -6,14 +6,20 @@ and **avalanche** (highest APR first) strategies — with no API key and nothing
 
 > Works in Claude Code, Claude Desktop, Cursor, and any MCP-capable agent.
 
-## What it does
+## Tools
 
-The `debt_payoff_plan` tool takes one or more debts and returns, for **both** strategies:
+**`debt_payoff_plan`** — takes one or more debts and returns, for **both** strategies:
 
 - **monthsToDebtFree** / **years**
 - **totalInterest** paid
 - **payoffOrder** — which debt is cleared first, second, …
 - **recommended** strategy + how much interest avalanche saves vs snowball
+
+**`budget_50_30_20`** — splits a monthly take-home income into a 50/30/20 budget (needs / wants /
+savings & debt), with optional custom percentages. Returns dollar targets per bucket.
+
+**`savings_goal`** — given a target amount, monthly contribution, optional current savings and APY,
+returns months/years to reach the goal and total contributed.
 
 ## Install (remote — nothing to download)
 
